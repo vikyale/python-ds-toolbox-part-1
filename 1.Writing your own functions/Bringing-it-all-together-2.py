@@ -18,6 +18,8 @@ def count_entries(df, col_name):
         # Else add the language to langs_count, set the value to 1
         else:
             langs_count[entry] = 1
+  
+
 
     # Return the langs_count dictionary
     return langs_count
